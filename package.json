@@ -1,0 +1,46 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "My resume",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gamell/resume.git"
+  },
+  "keywords": [
+    "resume",
+    "css",
+    "less",
+    "personal"
+  ],
+  "author": "Joan Gamell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gamell/resume/issues"
+  },
+  "homepage": "https://github.com/gamell/resume#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "2.13.0",
+    "eslint": "^2.10.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.1",
+    "eslint-plugin-jsx-a11y": "^1.0.4",
+    "eslint-plugin-react": "^5.2.2",
+    "gulp": "^3.9.1",
+    "gulp-less": "3.1.0",
+    "run-sequence": "1.2.1"
+  },
+  "eslintConfig": {
+    "extends": "airbnb",
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "rules": {
+      "no-console": 0,
+      "strict": 0
+    }
+  }
+}
