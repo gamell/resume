@@ -27,7 +27,12 @@ gulp.task('less', () =>
     .pipe(reload({ stream: true }))
 );
 
-gulp.task('build', ['html', 'less']);
+gulp.task('fonts', () =>
+  gulp.src('src/fonts/**/*')
+    .pipe(gulp.dest('public/fonts'))
+);
+
+gulp.task('build', ['html', 'less', 'fonts']);
 
 gulp.task('serve', ['clean', 'build'], () => {
   browserSync({
@@ -52,6 +57,6 @@ gulp.task('serve', ['clean', 'build'], () => {
   // gulp.watch('src/fonts/**/*', ['fonts']);
 });
 
-gulp.task('clean', require('del').bind(null, ['public/**/*']));
+gulp.task('clean', require('del').bind(null, ['public/**/*.*']));
 
 gulp.task('default', ['serve']);
