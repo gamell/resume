@@ -1,0 +1,143 @@
+@import (inline) "bootstrap.min.css";
+@import "bootstrap-mods";
+@import "vars";
+
+.print{
+	display: none;
+}
+
+h2.icons{
+
+	a{
+		color: @greyMedium;
+		margin-right: 20px;
+	}
+
+	a:hover{
+		color: @greyShine;
+	}
+}
+
+.page{
+	margin: 0 auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	background: #fff;
+	padding: 2em;
+	width: 960px;
+	box-shadow: 2px 2px 12px @greyMedium;
+
+	h2{
+		font-size: 3.7em;
+		margin: 0 0 20px -0.5%;
+	}
+
+	h3{
+		margin-top: 30px;
+	}
+
+
+	h4{
+		color: @greyDark;
+
+		strong{
+			color: @black;
+		}
+	}
+}
+
+.skills{
+
+	@percentageToSaturate: -100%;
+	@percentageToLighten: 20%;
+
+	cursor: pointer;
+
+	.web{
+		a{
+			background-color: lighten(saturate(@iosPink, @percentageToSaturate), @percentageToLighten);
+
+		}
+		&:hover, &.highlighted{
+			a{
+				background-color: @iosPink;
+			}
+		}
+	}
+
+	.javascript{
+		a{
+			background-color: lighten(saturate(@iosDarkBlue, @percentageToSaturate), @percentageToLighten);
+
+		}
+		&:hover, &.highlighted{
+			a{
+				background-color: @iosDarkBlue;
+			}
+		}
+	}
+
+	.qc{
+		a{
+			background-color: lighten(saturate(@iosGreen, @percentageToSaturate), @percentageToLighten);
+
+		}
+		&:hover, &.highlighted{
+			a{
+				background-color: @iosGreen;
+			}
+		}
+	}
+
+	.other{
+		a{
+			background-color: lighten(saturate(@iosOrange, @percentageToSaturate), @percentageToLighten);
+
+		}
+		&:hover, &.highlighted{
+			a{
+				background-color: @iosOrange;
+			}
+		}
+	}
+
+	.project{
+		a{
+			background-color: lighten(saturate(@iosPurple, @percentageToSaturate), @percentageToLighten);
+
+		}
+		&:hover, &.highlighted{
+			a{
+				background-color: @iosPurple;
+			}
+		}
+	}
+
+	a{
+		font-family: @header-font;
+		padding: 2px 8px;
+		color: white;
+		margin-right: 2px;
+		border-radius: 2px;
+		line-height: 28px;
+		font-weight: bold;
+		display: inline;
+		cursor: pointer;
+	}
+
+}
+
+.highlight{
+	font-weight: bold;
+}
+
+
+.dropbox .fa-check{
+	margin-right: 8px;
+}
+
+.skill-tooltip{
+	font-family: @header-font;
+	font-size: 13px;
+	font-weight: bold;
+}
