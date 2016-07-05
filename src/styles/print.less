@@ -1,20 +1,13 @@
 @import "vars.less";
 
 @page {
-	margin: 0.6cm;
 	border: 0;
 }
 
 html{
 	border: 0;
-}
-
-body{
-	margin: 0 auto;
+	margin: 0;
 	padding: 0;
-	border: 0;
-	zoom: 1;
-	width: 100%;
 }
 
 div, body, {
@@ -35,8 +28,12 @@ div, body, {
 	display: none;
 }
 
-#resume-formal{
-
+body {
+	font-size: 6pt;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 100%;
 	position: absolute;
 	top: 0;
 	height: 100%;
@@ -44,8 +41,6 @@ div, body, {
 	transform: none;
 	-webkit-transform-style: none;
 	transform-style: none;
-	margin: 0 auto;
-	padding: 0;
 	zoom: 1;
 
 	.custom-header{
@@ -57,21 +52,9 @@ div, body, {
 		display: block;
 	}
 
-	.skill-tooltip{
-		display: none;
-	}
-
-	.page-wrapper{
-		height: 100%;
-		width: 100%;
-		overflow: visible;
-		position: absolute;
-		top: 0;
-	}
-
 	.page{
 
-		width: 90%;
+		width: 100%;
 		height: 100%;
 		overflow: visible;
 		margin: 0 auto;
