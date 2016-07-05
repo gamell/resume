@@ -1,4 +1,4 @@
-# HTML to PDF resume generator
+# HTML to PDF resume Gulp workflow
 
 ## Isntall
 
