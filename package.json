@@ -38,6 +38,7 @@
     "gulp-postcss": "^6.1.1",
     "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^1.6.0",
+    "marky-markdown": "^7.0.1",
     "postcss-assets": "^4.1.0"
   },
   "eslintConfig": {
