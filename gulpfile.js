@@ -32,19 +32,17 @@ gulp.task('less', () =>
     .pipe(reload({ stream: true }))
 );
 
-gulp.task('html', ['less'], () =>
+gulp.task('html', () =>
   gulp.src('src/*.html')
     .pipe(gulp.dest('public'))
 );
 
-gulp.task('html:inline', ['html'], () =>
-  gulp.src('public/*.html')
-    .pipe(inlinesource())
-    .pipe(rename('resume.html'))
-    .pipe(gulp.dest('dist'))
+gulp.task('fonts', () =>
+  gulp.src('src/fonts/**/*')
+    .pipe(gulp.dest('public/fonts'))
 );
 
-gulp.task('serve', ['clean', 'build'], () => {
+gulp.task('serve', ['build'], () => {
   browserSync({
     notify: false,
     port: 9000,
@@ -66,7 +64,16 @@ gulp.task('serve', ['clean', 'build'], () => {
   gulp.watch('src/*.html', ['build']);
 });
 
-gulp.task('pdf', ['clean', 'build:inline'], () =>
+gulp.task('build:public', ['html', 'less', 'fonts']);
+gulp.task('build', ['build:public']);
+gulp.task('build:inline', ['build:public'], () =>
+  gulp.src('public/*.html')
+    .pipe(inlinesource())
+    .pipe(rename('resume.html'))
+    .pipe(gulp.dest('dist'))
+);
+
+gulp.task('pdf', ['build:inline'], () =>
   gulp.src('dist/resume.html')
   .pipe(pdf({
     border: {
@@ -77,10 +84,5 @@ gulp.task('pdf', ['clean', 'build:inline'], () =>
   .pipe(gulp.dest('dist'))
 );
 
-gulp.task('build', ['html']);
-gulp.task('build:public', ['html']);
-gulp.task('build:inline', ['html:inline']);
-
 gulp.task('clean', () => del(['public/**/*', 'dist/**/*']));
-
 gulp.task('default', ['serve']);
