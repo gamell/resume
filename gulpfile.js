@@ -66,7 +66,7 @@ gulp.task('serve', ['build'], () => {
 
 gulp.task('build:public', ['html', 'less', 'fonts']);
 gulp.task('build', ['build:public']);
-gulp.task('build:inline', ['build:public'], () =>
+gulp.task('build:inline', ['build'], () =>
   gulp.src('public/*.html')
     .pipe(inlinesource())
     .pipe(rename('resume.html'))
