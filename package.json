@@ -32,13 +32,15 @@
     "eslint-plugin-jsx-a11y": "^1.0.4",
     "eslint-plugin-react": "^5.2.2",
     "gulp": "^3.9.1",
+    "gulp-assign-to-pug": "^0.2.0",
     "gulp-html-pdf": "^0.3.0",
     "gulp-inline-source": "^2.1.0",
     "gulp-less": "^3.1.0",
+    "gulp-markdown": "^1.2.0",
     "gulp-postcss": "^6.1.1",
+    "gulp-pug": "^3.0.3",
     "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^1.6.0",
-    "marky-markdown": "^7.0.1",
     "postcss-assets": "^4.1.0"
   },
   "eslintConfig": {
