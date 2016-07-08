@@ -1,10 +1,27 @@
 doctype html
 html(lang="en")
   head
-    title= title
-    link(href='./styles/main.css', rel='stylesheet', inline)  
+    title
+      Resume
+    link(href='./styles/main.css', rel='stylesheet', inline)
     link(href='./styles/print.css', rel='stylesheet', media='print', inline)
   body
-    div.page !{resumeBody}
-        
-       
+    div.page
+      :markdown
+        # [Joan Gamell](http://gamell.io), Engineering Manager
+      p.contact-info
+        span gamell [at] gamell [dot] io
+        span +1 (415) 825 2758
+        span: a(href='http://github.com/gamell') http://github.com/gamell
+        span: a(href='http://www.linkedin.com/in/gamell') http://www.linkedin.com/in/gamell
+        span: a(href='http://gamell.io') http://gamell.io
+      p.lead
+        include:markdown ../markdowns/introduction.md
+
+      include:markdown ../markdowns/professional-experience.md
+
+      include:markdown ../markdowns/education.md
+
+      include:markdown ../markdowns/referrals.md
+
+      include:markdown ../markdowns/interests.md
