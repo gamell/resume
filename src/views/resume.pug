@@ -1,8 +1,7 @@
 doctype html
 html(lang="en")
   head
-    title
-      Resume
+    title Resume Joan Gamell
     link(href='./styles/main.css', rel='stylesheet', inline)
     link(href='./styles/print.css', rel='stylesheet', media='print', inline)
   body
@@ -15,9 +14,8 @@ html(lang="en")
         span: a(href='http://github.com/gamell') http://github.com/gamell
         span: a(href='http://www.linkedin.com/in/gamell') http://www.linkedin.com/in/gamell
         span: a(href='http://gamell.io') http://gamell.io
-      p.lead
+      div.lead
         include:markdown ../markdowns/introduction.md
-
       include:markdown ../markdowns/professional-experience.md
       include:markdown ../markdowns/education.md
       include:markdown ../markdowns/additional-information.md
