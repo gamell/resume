@@ -66,22 +66,15 @@ gulp.task('serve', ['build'], () => {
   browserSync({
     notify: false,
     port: 9000,
+    startPath: 'resume.html',
     server: {
       baseDir: ['public'],
     },
   });
 
   // watch for changes
-  gulp.watch([
-    'public/*.html',
-    'public/scripts/**/*.js',
-    'public/images/**/*',
-    'public/styles/**/*',
-    'public/fonts/**/*',
-  ]).on('change', reload);
-
-  gulp.watch('src/styles/**/*.less', ['build']);
-  gulp.watch('src/*.html', ['build']);
+  gulp.watch('public/**/*').on('change', reload);
+  gulp.watch('src/**/*', ['build']);
 });
 
 gulp.task('build:public', ['html', 'less', 'fonts']);
