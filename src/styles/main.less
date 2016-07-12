@@ -23,15 +23,25 @@
 
 	h2{
 		margin-top: 1em;
+		border-bottom: 1px solid @greyShine;
 	}
 
-
 	h3{
+
+		&:first-of-type{
+			margin-top: 1em;
+		}
+
 		color: @greyDark;
 
 		strong{
 			color: @black;
 		}
+	}
+
+	code{
+		color: @greyDark;
+		background-color: @greyLighter;
 	}
 
 	p.contact-info{
@@ -42,6 +52,10 @@
 			margin-right: 2em;
 		}
 
+	}
+
+	li > ul{
+		margin-top:0.8em;
 	}
 
 }
