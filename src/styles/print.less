@@ -10,6 +10,10 @@ html{
 	padding: 0;
 }
 
+em {
+	font-style: italic;
+}
+
 body {
 	font-size: 6pt;
 	margin: 0;
@@ -23,6 +27,7 @@ body {
 	transform: none;
 	-webkit-transform-style: none;
 	transform-style: none;
+	text-rendering: optimizeLegibility;
 	zoom: 1;
 
 	.print{
@@ -37,6 +42,7 @@ body {
 		margin: 0 auto;
 		position: absolute;
 		top: 0;
+		padding-top: 0;
 
 		a{
 			font-weight: bold;
@@ -51,6 +57,11 @@ body {
 				content: "";
 			}
 		}
+
+		code{
+			background: @greyLighter !important;
+		}
+
 	}
 
 }
