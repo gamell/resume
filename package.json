@@ -36,9 +36,10 @@
     "gulp-inline-source": "^2.1.0",
     "gulp-less": "^3.1.0",
     "gulp-postcss": "^6.1.1",
+    "gulp-pug": "^3.0.3",
     "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^1.6.0",
-    "marky-markdown": "^7.0.1",
+    "jstransformer-markdown": "^1.1.0",
     "postcss-assets": "^4.1.0"
   },
   "eslintConfig": {

@@ -1,49 +1,104 @@
 @import (inline) "bootstrap.min.css";
 @import "fonts";
-@import "bootstrap-mods";
 @import "vars";
 
 .print{
 	display: none;
 }
 
+body{
+  font-family: @body-font;
+}
+
+h1, h2, h3, h4{
+  font-family: @header-font;
+}
+
+h1{
+	font-size: 3.7em;
+	margin: 0 0 0.2em 0;
+}
+
+h2, .h2{
+	font-size: 1.8em;
+	margin-top: 1em;
+	margin-bottom: 0.6em;
+	padding-bottom: 0.2em;
+	border-bottom: 1px solid @greyShine;
+}
+
+h3, .h3{
+	font-size: 1.4em;
+	margin-top: 1.4em;
+	margin-bottom: 0.3em;
+	color: @greyDark;
+
+	strong{
+		color: @black;
+	}
+
+}
+
+h4, .h4 {
+	font-size: 0.95em;
+	margin-bottom: 1.2em;
+	margin-top: 0;
+	font-style: italic;
+}
+
+code{
+	color: @greyDark;
+	background-color: @greyLighter;
+}
+
+p.contact-info{
+	font-family: @header-font;
+
+	span{
+		margin-right: 2em;
+	}
+
+}
+
+li > ul{
+	margin-top:0.8em;
+	padding-left: 1.2em;
+}
+
+.lead{
+	font-size: 1.2em;
+	margin: 1.4em 0 0 0;
+
+	p {
+		line-height: 1.7em;
+	}
+
+}
+
+ul{
+	li{
+		margin-bottom: 1em;
+	}
+}
+
+a{
+	color: @iosDarkBlue;
+
+	&:hover{
+		text-decoration: none;
+		color: @iosLightBlue;
+	}
+}
+
+
 .page{
 	margin: 0 auto;
 	margin-top: 2em;
 	margin-bottom: 2em;
 	background: #fff;
-	padding: 2em;
+	padding: 2em 4em 4em 4em;
 	width: 960px;
 	box-shadow: 2px 2px 12px @greyMedium;
-
-	h1{
-		font-size: 3.7em;
-		margin: 0 0 0.2em 0;
-	}
-
-	h2{
-		margin-top: 1em;
-	}
-
-
-	h3{
-		color: @greyDark;
-
-		strong{
-			color: @black;
-		}
-	}
-
-	p.contact-info{
-		margin-bottom: 1.5em;
-		font-family: @header-font;
-
-		span{
-			margin-right: 2em;
-		}
-
-	}
-
 }
 
 .highlight{

@@ -19,10 +19,7 @@ body {
 	position: absolute;
 	top: 0;
 	height: 100%;
-	-webkit-transform: none;
-	transform: none;
-	-webkit-transform-style: none;
-	transform-style: none;
+	text-rendering: optimizeLegibility;
 	zoom: 1;
 
 	.print{
@@ -37,13 +34,10 @@ body {
 		margin: 0 auto;
 		position: absolute;
 		top: 0;
+		padding-top: 0;
 
-		a{
+		a {
 			font-weight: bold;
-		}
-
-		h2.page-header{
-			margin-top: 15px;
 		}
 
 		h1, p.contact-info{
@@ -51,6 +45,11 @@ body {
 				content: "";
 			}
 		}
+
+		code{
+			background: @greyLighter !important;
+		}
+
 	}
 
 }
