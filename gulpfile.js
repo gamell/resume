@@ -15,9 +15,7 @@ const sourcemaps = require('gulp-sourcemaps');
 const pdf = require('gulp-html-pdf');
 const inlinesource = require('gulp-inline-source');
 const rename = require('gulp-rename');
-// const markdown = require('gulp-markdown');
 const pug = require('gulp-pug');
-// const assignToPug = require('gulp-assign-to-pug');
 
 gulp.task('less', () =>
   gulp.src(['src/styles/main.less', 'src/styles/print.less'])
@@ -35,12 +33,6 @@ gulp.task('less', () =>
     .pipe(reload({ stream: true }))
 );
 
-// gulp.task('markdown', () =>
-//   gulp.src('src/*.md')
-//     .pipe(markdown())
-//     .pipe(gulp.dest('./.tmp'))
-// );
-
 gulp.task('html', () =>
   gulp.src('src/views/resume.pug')
   .pipe(pug({
@@ -48,14 +40,6 @@ gulp.task('html', () =>
   }))
   .pipe(gulp.dest('public'))
 );
-
-// gulp.task('html', ['markdown'], () =>
-//   gulp.src('./.tmp/resume.html')
-//     .pipe(assignToPug('src/views/resume.pug', {
-//       varName: 'resumeBody',
-//     }))
-//     .pipe(gulp.dest('public'))
-//   );
 
 gulp.task('fonts', () =>
   gulp.src('src/fonts/**/*')
@@ -90,8 +74,8 @@ gulp.task('pdf', ['build:inline'], () =>
   gulp.src('dist/resume.html')
   .pipe(pdf({
     border: {
-      top: '5mm',
-      bottom: '10mm',
+      top: '4mm',
+      bottom: '4mm',
     },
   }))
   .pipe(gulp.dest('dist'))
