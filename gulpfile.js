@@ -74,8 +74,8 @@ gulp.task('pdf', ['build:inline'], () =>
   gulp.src('dist/resume.html')
   .pipe(pdf({
     border: {
-      top: '4mm',
-      bottom: '4mm',
+      top: '10mm',
+      bottom: '6mm',
     },
   }))
   .pipe(gulp.dest('dist'))

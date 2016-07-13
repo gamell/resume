@@ -1,7 +1,7 @@
 ## Professional Experience
 
 ### **Engineering Manager** at **Expedia** in San Francisco, Jul 2015 - present
-#### Expedia is one of the world's largest Online Travel Agents (OTA)
+#### Expedia is one of the world's largest Online Travel Agent (OTA)
 
 Having hands-on technical skills in this managerial position helps me to successfully scale and lead an energetic team of engineers who own the whole stack and deploy to production daily following `Continuous Deployment` practices.
 
@@ -20,10 +20,11 @@ Having hands-on technical skills in this managerial position helps me to success
 First role with **people manager responsibilities** in a small team of engineers where we owned the whole product and project.
 
 - Successfully led the effort to **scale the system to serve x5 more customers with the same team**.
-- Was **main project point person** and liaison with other teams and product stakeholders.
+- Was **main project point person** and liaison with other teams and Product stakeholders.
 - Assumed the de-facto role of a **Technical Project Manager** / Delivery Manager and perfected the team's *semi-kanban* process.
 - **Hired**, on-boarded and mentored new team members.
 - **Main front-end developer** in the team, using mainly `vanilla JS`, `LESS/CSS`, `HTML` and `node`.
+- **Collaborated with Product** stakeholders on new feature planning and estimation.
 
 ### **Front-end Engineer** at **Expedia** in Singapore, Oct 2012 - Oct 2014
 ####
@@ -37,11 +38,11 @@ Main front-end developer of a fully-responsive, high-traffic, highly-available e
 - Identified, debugged and fixed **live-site issues** (`Splunk`, `Nagios`, `AWS monitoring`, `Google Analytics`, etc.)
 
 ### **Sr. Web Developer & Tech Lead** at **Optimum Solutions (Standard Chartered Bank)** in Singapore, Jan - Oct 2012
-#### Optimum Solutions is Singaporean mid-size IT consultant company. SCB is a global bank with branches in 70 countries over 80,000 employees
+#### Optimum Solutions is a Singaporean mid-size IT consultant company. SCB is a global bank with branches in 70 countries over 80,000 employees
 
 Worked on the RMWB (Relation Manager WorkBench) project for Standard Chartered Bank. Our responsibility was to develop and ship the front-end of the application the corporate customers would use.
 
-- **Integrated an already existing web application** from a third-party vendor following given designs and using `HTML`, `CSS`, `JavaScript` and `JSPs` into the RMWB portal which also grouped information from CreditMate and MicroStrategy Systems in a web-based interface. Also developed web services to expose data from the backend (Java, Spring).
+- **Integrated an already existing web application** from a third-party vendor following given designs and using `HTML`, `CSS`, `JavaScript` and `JSPs` into the RMWB portal which also grouped information from CreditMate and MicroStrategy Systems in a web-based interface. Also developed web services to expose data from the backend with `Java` (Spring).
 - **Conducted technical interviews** for Web Developer and Web Designer roles.
 - **Led implementation**, Quality Control, bug tracking and feature planning for the project.
 - Was the **point of contact** between the Business and the team.
@@ -52,11 +53,11 @@ Worked on the RMWB (Relation Manager WorkBench) project for Standard Chartered B
 
 Worked on the *Mentor* project at Wholesale Banking & Asset Management, Global Risk Unit. Mentor was a web-based project to integrate, unify, organize and report all the unit’s risk data from diverse systems with different data outputs.
 
-- Helped **design and code the project's foundations** and initial setup from scratch (Maven config files, project file structure, initial setup).
+- Helped **design and code the project's foundations** from scratch (Maven config files, project file structure, initial setup).
 - **Developed a complex parser** for a legacy system output (Algorithmics) making exhaustive use of Regular Expressions to translate the output to comprehensive, coherent JPA models.
 - **Designed and implemented a web-based user-facing interface** with `JSP`, `HTML` and `JavaScript` (`jQuery`, `Ajax`, async plugin loading).
 - **Led and oversaw the front-end development** and ensured best practices were followed.
-- Interacted with business stakeholders while gathering requirements, designing new features and reporting the status of the project.
+- Interacted with business stakeholders to gather requirements and design new features.
 
 ### **Developer** at **Safelayer Secure Communications** in Barcelona, Feb 2009 - Sep 2010
 #### Safelayer is an IT security company with ~50 workers
