@@ -3,28 +3,28 @@
 ### **Engineering Manager** at **Expedia** in San Francisco, Jul 2015 - present
 #### Expedia is one of the world's largest Online Travel Agent (OTA)
 
-Having hands-on technical skills in this managerial position helps me to successfully scale and lead an energetic team of engineers who own the whole stack and deploy to production daily following `Continuous Deployment` practices.
+Having hands-on technical skills in this managerial position helped me to scale and lead an energetic team of engineers who owned the whole stack and deployed to production daily following `Continuous Deployment` practices.
 
-- Built and led a successful team of Developers and Technical Project Manager who own the complete Product & Tech Stack and **reliably deliver according to the Product expectations**.
-- **Successfully doubled the team's size** by on-boarding new team members in two new remote locations in less than two months while minimizing the impact on sprint velocity and deliverables.
-- Successfully work through the **challenges of leading a distributed team across 4 locations in 3 distant timezones** and adjust the team's processes for optimal performance in this remote configuration.
-- **Hire new team members in a competitive market** satisfying the given timeframe.
-- **Mentor and coach team members**, empowering them to take decisions and to continuously improve themselves. Work through performance issues with team members when needed.
-- Lay out the **technical vision for the product**, liaise and collaborate with other teams.
-- **Ensure quality** is built-in and automated in the code.
-- **Write code**, pair coding, perform code reviews and help debug issues. Main languages used are `JavaScript`, `Java`, `HTML` and `CSS`.
+- Built and led a successful team of Developers and Technical Project Manager who owned the complete Product & Tech Stack and **reliably delivered according to Product's expectations**.
+- **Doubled team's size** by on-boarding new team members in two new remote locations in less than two months while minimizing the impact on sprint velocity and deliverables.
+- Overcame the **challenges of leading a distributed team across 4 locations in 3 distant timezones** and adjusted the team's processes for optimal performance in this remote configuration.
+- **Hired new team members in a competitive market** satisfying the given timeframe.
+- **Mentored and coached team members**, empowering them to take decisions and to continuously improve themselves through data and feedback, and worked through performance issues with team members when needed.
+- Laid out the **technical vision for the product**, liaise and collaborate with other teams.
+- **Ensured quality** is built-in and automated in the code and pipeline.
+- **Wrote code**, pair coding, perform code reviews and help debug issues. Main languages used are `JavaScript`, `Java`, `HTML` and `CSS`.
 
 ### **Tech Lead / Technical Project Manager** at **Expedia** in San Francisco, Oct 2014 - Jul 2015
 ####
 
-First role with **people manager responsibilities** in a small team of engineers where we owned the whole product and project.
+First role with **people manager responsibilities** in a small team of engineers where we owned the whole product.
 
-- Successfully led the effort to **scale the system to serve x5 more customers with the same team**.
-- Was **main project point person** and liaison with other teams and Product stakeholders.
+- Led the effort to **scale the system to serve x5 more requests with the same team**.
+- Performed as **main project point person** and liaison with other teams and Product stakeholders.
 - Assumed the de-facto role of a **Technical Project Manager** / Delivery Manager and perfected the team's *semi-kanban* process.
 - **Hired**, on-boarded and mentored new team members.
-- **Main front-end developer** in the team, using mainly `vanilla JS`, `LESS/CSS`, `HTML` and `node`.
-- **Collaborated with Product** stakeholders on new feature planning and estimation.
+- Led **front-end development** in the team, using mainly `vanilla JS`, `LESS/CSS`, `HTML` and `node`.
+- **Estimated** new feature effort levels and worked with Product on Backlog planning/grooming.
 
 ### **Front-end Engineer** at **Expedia** in Singapore, Oct 2012 - Oct 2014
 ####
