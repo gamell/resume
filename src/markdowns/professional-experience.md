@@ -23,7 +23,7 @@ First role with **people manager responsibilities** in a small team of engineers
 - Performed as **main project point person** and liaison with other teams and Product stakeholders.
 - Assumed the de-facto role of a **Technical Project Manager** / Delivery Manager and perfected the team's *semi-kanban* process.
 - **Hired**, on-boarded and mentored new team members.
-- Led **front-end development** in the team, using mainly `vanilla JS`, `LESS/CSS`, `HTML` and `node`.
+- Headed **front-end development** in the team, using mainly `vanilla JS`, `LESS/CSS`, `HTML` and `node`.
 - **Estimated** new feature effort levels and worked with Product on Backlog planning/grooming.
 
 ### **Front-end Engineer** at **Expedia** in Singapore, Oct 2012 - Oct 2014
@@ -32,20 +32,20 @@ First role with **people manager responsibilities** in a small team of engineers
 Main front-end developer of a fully-responsive, high-traffic, highly-available e-commerce website: [AirAsiaGo](https://www.airasiago.com). Used `Kanban` & `Continuous Deployment` methodologies and followed `Clean Code` practices.
 
 - **Developed, tested and shipped** cross-browser, responsive, retina-ready features and modules built with `HTML5`, `JavaScript` - `jQuery`, `Backbone`, `AngularJS` etc - `CSS3 (LESS)`, `SVG`, `sprites`, etc. on top of a `Spring (Java)` back-end.
-- **Led the team's front-end vision** and evangelize best practices.
-- Interacted with other teams proactively providing feedback on the difficulty/feasibility of the planned features.
+- **Led the team's front-end vision and development**. Evangelize best practices by mentoring team mates.
+- Interacted with UI Design team, providing constant feedback on the difficulty/feasibility of the planned features.
 - **Optimized** page load-time and SEO ranking through minification, caching, selective loading, changes in front-end architecture, usage of subdomain-per-asset CDNs, sprite and image compression, etc.
-- Identified, debugged and fixed **live-site issues** (`Splunk`, `Nagios`, `AWS monitoring`, `Google Analytics`, etc.)
+- Identified, debugged and fixed **live-site issues** within hours (`Splunk`, `Nagios`, `AWS monitoring`, `Google Analytics`, etc.).
 
 ### **Sr. Web Developer & Tech Lead** at **Optimum Solutions (Standard Chartered Bank)** in Singapore, Jan - Oct 2012
 #### Optimum Solutions is a Singaporean mid-size IT consultant company. SCB is a global bank with branches in 70 countries over 80,000 employees
 
 Worked on the RMWB (Relation Manager WorkBench) project for Standard Chartered Bank. Our responsibility was to develop and ship the front-end of the application the corporate customers would use.
 
-- **Integrated an already existing web application** from a third-party vendor following given designs and using `HTML`, `CSS`, `JavaScript` and `JSPs` into the RMWB portal which also grouped information from CreditMate and MicroStrategy Systems in a web-based interface. Also developed web services to expose data from the backend with `Java` (Spring).
+- **Integrated an already existing web application** from a third-party vendor following given designs and using `HTML`, `CSS`, `JavaScript` and `JSPs` into the RMWB portal which also grouped information from CreditMate and MicroStrategy Systems in a web-based interface. Developed web services to expose data from the backend with `Spring` (Java).
 - **Conducted technical interviews** for Web Developer and Web Designer roles.
-- **Led implementation**, Quality Control, bug tracking and feature planning for the project.
-- Was the **point of contact** between the Business and the team.
+- **Drove implementation**, Quality Control, bug tracking and feature planning for the project.
+- Undertook the role of **point of contact** between the Business and tech team.
 
 
 ### **Analyst** at **BBVA** in Madrid, Sep 2010 - Dec 2011
@@ -56,13 +56,13 @@ Worked on the *Mentor* project at Wholesale Banking & Asset Management, Global R
 - Helped **design and code the project's foundations** from scratch (Maven config files, project file structure, initial setup).
 - **Developed a complex parser** for a legacy system output (Algorithmics) making exhaustive use of Regular Expressions to translate the output to comprehensive, coherent JPA models.
 - **Designed and implemented a web-based user-facing interface** with `JSP`, `HTML` and `JavaScript` (`jQuery`, `Ajax`, async plugin loading).
-- **Led and oversaw the front-end development** and ensured best practices were followed.
-- Interacted with business stakeholders to gather requirements and design new features.
+- Spearheaded **front-end development** and ensured best practices were followed.
+- Drove meetings with Business stakeholders to gather requirements and design new features.
 
 ### **Developer** at **Safelayer Secure Communications** in Barcelona, Feb 2009 - Sep 2010
 #### Safelayer is an IT security company with ~50 workers
 
 **Invented, designed and implemented** a proof of concept of *gOTP*, a novel two-factor authentication system which combined the robustness of One Time Passwords and the easily-remembered Graphical Passwords. The project was initially developed as a joint R&D Final Degree Project at UPC (see below) and Safelayer company, to become a product of the latter.
 
-- iPhone Application as the client. Developed with `Objective-C`, `Cocoa Touch Framework`, `Xcode`.
-- `Grails` (Groovy on Rails) application as the server. Used `Groovy`, `Java`, `ant`, `Maven`, `SVN`, `MySQL`, `ExtJS` (Sencha), `Web Services`.
+- Developed iPhone application as the client. Developed with `Objective-C`, `Cocoa Touch Framework`, `Xcode`.
+- Built `Grails` (Groovy on Rails) application as the server. Used `Groovy`, `Java`, `ant`, `Maven`, `SVN`, `MySQL`, `ExtJS` (Sencha), `Web Services`.
