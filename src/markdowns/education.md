@@ -2,7 +2,7 @@
 
 ### **Informatics Engineering**, 2004-2009 at **Barcelona School of Informatics (FIB)**, Technical University of Catalonia (UPC), Barcelona (Spain)
 
-Degree + MSc **Graduated with Honors in the final Degree project** "*[A Secure Authentication System via OTP and Graphical Password](http://goo.gl/tkahus)*"
+Degree + MSc. Graduated with **Honors** in the final Degree project "*[A Secure Authentication System via OTP and Graphical Password](http://goo.gl/tkahus)*"
 
 ### Other courses
 
