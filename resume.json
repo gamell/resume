@@ -1,14 +1,12 @@
 {
   "basics": {
-    "name": "Joan Gamell",
+    "name": "Joan Gamell Farre",
     "label": "Engineering Manager",
     "picture": "",
     "email": "gamell {at} gamell {dot} io",
-    "phone": "+1 (415) 8252758",
-    "degree": "",
+    "phone": "+1 (415) 825 2758",
     "website": "http://gamell.io",
-    "summary": "",
-    "highlights": null,
+    "summary": "Technologist bred and fascinated by the web. Broad experience in **full stack development**, made the jump to **management** but still coding when there is the chance. Thrive in the **mix of technical and leadership roles**, looking at management from the problem solving perspective and striving to improve every day. Kept my tech skills up to date by *\"scratching my own itch\"* with some open-source projects.",
     "location": {
       "address": "",
       "postalCode": "94133",
@@ -18,82 +16,78 @@
     },
     "profiles": [
       {
-        "network": "",
-        "username": "",
-        "url": ""
+        "network": "Github",
+        "username": "gamell",
+        "url": "https://github.com/gamell"
+      },
+      {
+        "network": "Linkedin",
+        "username": "gamell",
+        "url": "https://www.linkedin.com/in/gamell"
       }
     ]
   },
   "work": [
     {
-      "company": "",
-      "position": "",
-      "website": "",
-      "startDate": "",
+      "company": "Expedia, Inc.",
+      "position": "Engineering Manager",
+      "website": "https://www.expedia.com",
+      "startDate": "2015-07-01",
       "endDate": "",
-      "summary": "",
+      "summary": "Having hands-on technical skills in this managerial position helped me to scale and lead an energetic team of engineers who owned the whole stack and deployed to production daily following `Continuous Deployment` practices.",
       "highlights": [
+        "",
+        "",
         ""
       ]
     }
   ],
-  "additionalWork": [
+  "volunteer": [
     {
-      "company": "",
+      "organization": "",
       "position": "",
       "website": "",
       "startDate": "",
       "endDate": "",
       "summary": "",
-      "highlights": [
-        ""
-      ]
+      "highlights": []
     }
   ],
-  "workLabel": "",
-  "additionalWorkLabel": "",
   "education": [
     {
-      "institution": "",
-      "area": "",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "",
-      "gpa": "",
-      "courses": [
-        ""
-      ]
+      "institution": "University of Oklahoma",
+      "area": "Information Technology",
+      "studyType": "Bachelor",
+      "startDate": "2011-06-01",
+      "endDate": "2014-01-01",
+      "gpa": "4.0",
+      "courses": []
     }
   ],
-  "publications": [
-    {
-      "name": "",
-      "publisher": "",
-      "releaseDate": "",
-      "website": "",
-      "summary": "",
-      "isbn": ""
-    }
-  ],
-  "additionalPublications": [
-    {
-      "name": "",
-      "publisher": "",
-      "releaseDate": "",
-      "website": "",
-      "summary": "",
-      "isbn": ""
-    }
-  ],
-  "publicationsLabel": "",
-  "additionalPublicationsLabel": "",
+  "awards": [],
+  "publications": [],
   "skills": [
     {
-      "name": "",
-      "level": "",
+      "name": "Web Development",
+      "level": "Expert",
       "keywords": [
-        ""
+        "HTML",
+        "CSS",
+        "JavaScript"
       ]
     }
-  ]
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Full Professional Proficiency"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Photography",
+      "keywords": []
+    }
+  ],
+  "references": []
 }
