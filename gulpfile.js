@@ -1,7 +1,6 @@
 'use strict';
 
 const browserSync = require('browser-sync');
-const reload = browserSync.reload;
 const autoprefixer = require('autoprefixer');
 const del = require('del');
 
@@ -16,9 +15,17 @@ const pdf = require('gulp-html-pdf');
 const inlinesource = require('gulp-inline-source');
 const rename = require('gulp-rename');
 const pug = require('gulp-pug');
+const purify = require('gulp-purifycss');
 
-gulp.task('less', () =>
-  gulp.src(['src/styles/main.less', 'src/styles/print.less'])
+const reload = browserSync.reload;
+
+const paths = {
+  templates: 'src/views/**/*.pug',
+  less: ['src/styles/main.less', 'src/styles/print.less'],
+};
+
+gulp.task('html-and-css', ['html'], () =>
+  gulp.src(paths.less)
     .pipe(less({
       paths: ['src/styles'],
     }))
@@ -29,12 +36,13 @@ gulp.task('less', () =>
       relative: true,
     })]))
     .pipe(sourcemaps.write())
+    .pipe(purify(['./public/**/*.html']))
     .pipe(gulp.dest('public/styles'))
     .pipe(reload({ stream: true }))
 );
 
 gulp.task('html', () =>
-  gulp.src('src/views/resume.pug')
+  gulp.src(paths.templates)
   .pipe(pug({
     // Your options in here.
   }))
@@ -61,9 +69,9 @@ gulp.task('serve', ['build'], () => {
   gulp.watch('src/**/*', ['build']);
 });
 
-gulp.task('build:public', ['html', 'less', 'fonts']);
-gulp.task('build', ['build:public']);
-gulp.task('build:inline', ['build'], () =>
+gulp.task('build:public', ['html-and-css', 'fonts']);
+gulp.task('build:inline', ['build']);
+gulp.task('build', ['build:public'], () =>
   gulp.src('public/*.html')
     .pipe(inlinesource())
     .pipe(rename('resume.html'))
