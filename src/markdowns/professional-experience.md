@@ -6,13 +6,15 @@
 Having hands-on technical skills in this managerial position helped me to scale and lead an energetic team of engineers who owned the whole stack and deployed to production daily following `Continuous Deployment` practices.
 
 - Built and led a successful team of Developers and Technical Project Manager who owned the complete Product & Tech Stack and **reliably delivered according to Product's expectations**.
+- Lead the engineering team to generate a projected **$70M+ of Gross Profit** in 2016.
 - **Doubled team's size** by on-boarding new team members in two new remote locations in less than two months while minimizing the impact on sprint velocity and deliverables.
+- Helped deliver the [official Expedia Alexa Skill](https://www.expedia.com/alexa) under a tight deadline as a side project. The project was developed using `node`, `AWS lambda`, `Dynamo DB` and `Amazon Alexa SDK`
 - Overcame the **challenges of leading a distributed team across 4 locations in 3 distant timezones** and adjusted the team's processes for optimal performance in this remote configuration.
 - **Hired new team members in a competitive market** satisfying the given timeframe.
 - **Mentored and coached team members**, empowering them to take decisions and to continuously improve themselves through data and feedback, and worked through performance issues with team members when needed.
 - Laid out the **technical vision for the product**, liaise and collaborate with other teams.
 - **Ensured quality** is built-in and automated in the code and pipeline.
-- **Wrote code**, pair coding, perform code reviews and help debug issues. Main languages used are `JavaScript`, `Java`, `HTML` and `CSS`.
+- **Wrote code**, paired coded, performed code reviews and helped debug issues. Main languages I am fluent in are `JavaScript`, `Java`, `HTML` and `CSS`.
 
 ### **Tech Lead / Technical Project Manager** at **Expedia** in San Francisco, Oct 2014 - Jul 2015
 ####
