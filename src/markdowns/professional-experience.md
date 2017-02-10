@@ -13,7 +13,7 @@ Having hands-on technical skills in this managerial position helped me to scale 
 - **Mentored and coached team members**, empowering them to take decisions and to continuously improve themselves through data and feedback, and worked through performance issues with team members when needed.
 - Laid out the **technical vision for the product**, liaised and collaborated with other teams to achieve our goals.
 - Helped deliver the official [Expedia Alexa Skill](https://www.expedia.com/alexa) under a tight deadline as a side project. The project was developed using `node`, `AWS lambda` and `Dynamo DB`.
-- **Wrote and open-sourced** [a library to functionally test Alexa Skills](https://github.com/ExpediaDotCom/alexa-conversation)
+- **Wrote and open-sourced** [a library to functionally test Alexa Skills](https://github.com/ExpediaDotCom/alexa-conversation).
 - **Wrote code**, paired coded, performed code reviews and helped debug issues. Fluent in: `JavaScript`, `HTML`, `CSS` and `Java`.
 
 ### **Tech Lead** at **Expedia** in San Francisco, Oct 2014 - Jul 2015
