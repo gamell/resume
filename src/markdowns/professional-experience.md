@@ -7,19 +7,19 @@ Having hands-on technical skills in this managerial position helped me to scale 
 
 - Built and led a successful team of engineers who owned the complete Product & Tech Stack and **reliably delivered according to Product's expectations**.
 - Lead the engineering team to generate a projected **$70M+ of Gross Profit** in 2016.
-- Helped deliver the official [Expedia Alexa Skill](https://www.expedia.com/alexa) under a tight deadline as a side project. The project was developed using `node`, `AWS lambda` and `Dynamo DB`.
+- **Scaled the team** several times - from 4 to 16 members - in 2 years while minimizing impact on sprint velocity and deliverables.
 - Overcame the **challenges of leading a distributed team across 4 locations in 2 different timezones** and adjusted the team's processes for optimal performance in this remote configuration.
 - **Achieved zero outstanding bugs** several months by ensuring quality is built-in and automated in the code and pipeline and by continuously performing preventive maintenance.
-- **Hired new team members in a competitive market** satisfying the given timeframe.
-- **Scaled the team** several times while minimizing impact on sprint velocity and deliverables.
 - **Mentored and coached team members**, empowering them to take decisions and to continuously improve themselves through data and feedback, and worked through performance issues with team members when needed.
 - Laid out the **technical vision for the product**, liaised and collaborated with other teams to achieve our goals.
+- Helped deliver the official [Expedia Alexa Skill](https://www.expedia.com/alexa) under a tight deadline as a side project. The project was developed using `node`, `AWS lambda` and `Dynamo DB`.
+- **Wrote and open-sourced** [a library to functionally test Alexa Skills](https://github.com/ExpediaDotCom/alexa-conversation)
 - **Wrote code**, paired coded, performed code reviews and helped debug issues. Fluent in: `JavaScript`, `HTML`, `CSS` and `Java`.
 
 ### **Tech Lead** at **Expedia** in San Francisco, Oct 2014 - Jul 2015
 ####
 
-First role with **people manager responsibilities** in a small team of engineers where we owned the whole product.
+First role with **people manager responsibilities** in a small team of engineers where we owned the whole tech stack for the product.
 
 - Led the effort to **scale the system to serve x5 more requests with the same team**.
 - Performed as **main project point person** and liaison with other teams and Product stakeholders.
