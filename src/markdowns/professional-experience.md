@@ -1,6 +1,17 @@
 ## Professional Experience
 
-### **Engineering Manager** at **Expedia** in San Francisco, Jul 2015 - present
+### **Staff Engineer** at **LinkedIn** in San Francisco, May 2017 - present
+#### LinkedIn is the largest professional network site with more then 500M AU
+
+Decided to become an IC again to focus on my tech skills by joining the front-end team in charge of building the portal for the advertisers to setup and manage their advertising campaigns within LinkedIn.
+
+- Lead a project to migrate existing integration tests to a new and better custom-built framework based on stubs and Selenium.
+- On-boarded dozens of engineers onto the new framework by holding sessions, extensive pairing and code reviewing.
+- Mentored numerous team members
+- 
+- Owned the CI/CD pipeline and increased its quality and reliability.
+
+### **Engineering Manager** at **Expedia** in San Francisco, Jul 2015 - May 2017
 #### Expedia is one of the world's largest Online Travel Agent (OTA)
 
 Having hands-on technical skills in this managerial position helped me to scale and lead an energetic team of engineers who owned the whole stack and deployed to production daily following `Continuous Deployment` practices.
