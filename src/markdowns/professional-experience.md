@@ -1,15 +1,15 @@
 ## Professional Experience
 
-### **Staff Engineer** at **LinkedIn** in San Francisco, May 2017 - present
+### **Staff Software Engineer** at **LinkedIn** in San Francisco, May 2017 - present
 #### LinkedIn is the largest professional network site with more then 500M AU
 
-Decided to become an IC again to focus on my tech skills by joining the front-end team in charge of building the portal for the advertisers to setup and manage their advertising campaigns within LinkedIn.
+Went back to being an Individual Contributor to focus on my tech skills by joining the front-end team in charge of building the portal to setup and manage advertising campaigns within LinkedIn.
 
-- Lead a project to migrate existing integration tests to a new and better custom-built framework based on stubs and Selenium.
-- On-boarded dozens of engineers onto the new framework by holding sessions, extensive pairing and code reviewing.
-- Mentored numerous team members
-- 
-- Owned the CI/CD pipeline and increased its quality and reliability.
+- Lead a project to migrate existing **integration tests** to a new and better custom-built framework built with `Scala`, `Java` and `Selenium`.
+- On-boarded dozens of engineers onto the new framework by holding on-boarding sessions, extensive **code pairing and code reviewing**.
+- **Mentored** numerous team members
+- Owned the **CI/CD pipeline** and increased its quality and reliability.
+- Assumed the **Tech Lead role** in a big migration project for the app's UI to `Ember`. The role entailed **being the point person** for that part of the project, **translating product requirements** into actionable tasks, **planning and estimation**, helping with **technical designs** and making sure our **quality standards** are upheld in the code.
 
 ### **Engineering Manager** at **Expedia** in San Francisco, Jul 2015 - May 2017
 #### Expedia is one of the world's largest Online Travel Agent (OTA)
@@ -55,27 +55,12 @@ Main front-end developer of a fully-responsive, high-traffic, highly-available e
 
 Worked on the RMWB (Relation Manager WorkBench) project for Standard Chartered Bank. Our responsibility was to develop and ship the front-end of the application the corporate customers would use.
 
-- **Integrated an already existing web application** from a third-party vendor following given designs and using `HTML`, `CSS`, `JavaScript` and `JSPs` into the RMWB portal which also grouped information from CreditMate and MicroStrategy Systems in a web-based interface. Developed web services to expose data from the backend with `Spring` (Java).
-- **Conducted technical interviews** for Web Developer and Web Designer roles.
-- **Drove implementation**, Quality Control, bug tracking and feature planning for the project.
-- Undertook the role of **point of contact** between the Business and tech team.
-
-
 ### **Analyst** at **BBVA** in Madrid, Sep 2010 - Dec 2011
-#### BBVA is the second-largest Spanish bank with more than 100,00 employees around the world
+#### BBVA is the second-largest Spanish bank with more than 100,000 employees around the world
 
-Worked on the *Mentor* project at Wholesale Banking & Asset Management, Global Risk Unit. Mentor was a web-based project to integrate, unify, organize and report all the unit’s risk data from diverse systems with different data outputs.
-
-- Helped **design and code the project's foundations** from scratch (Maven config files, project file structure, initial setup).
-- **Developed a complex parser** for a legacy system output (Algorithmics) making exhaustive use of Regular Expressions to translate the output to comprehensive, coherent JPA models.
-- **Designed and implemented a web-based user-facing interface** with `JSP`, `HTML` and `JavaScript` (`jQuery`, `Ajax`, async plugin loading).
-- Spearheaded **front-end development** and ensured best practices were followed.
-- Drove meetings with Business stakeholders to gather requirements and design new features.
+Worked on the *Mentor* project at Wholesale Banking & Asset Management, Global Risk Unit. Designed and implemented the whole UI layer with `JSP`, `HTML` and `JavaScript` (`jQuery`, `Ajax`, async plugin loading).
 
 ### **Developer** at **Safelayer Secure Communications** in Barcelona, Feb 2009 - Sep 2010
-#### Safelayer is an IT security company with ~50 workers
+#### Safelayer is a mid-size, Spanish IT security company
 
-**Invented, designed and implemented** a proof of concept of *gOTP*, a novel two-factor authentication system which combined the robustness of One Time Passwords and the easily-remembered Graphical Passwords. The project was initially developed as a joint R&D Final Degree Project at UPC (see below) and Safelayer company, to become a product of the latter.
-
-- Developed iPhone application as the client. Developed with `Objective-C`, `Cocoa Touch Framework`, `Xcode`.
-- Built `Grails` (Groovy on Rails) application as the server. Used `Groovy`, `Java`, `ant`, `Maven`, `SVN`, `MySQL`, `ExtJS` (Sencha), `Web Services`.
+**Invented, designed and implemented** a proof of concept of *gOTP*, a novel two-factor authentication system which combined the robustness of One Time Passwords and the easily-remembered Graphical Passwords.
