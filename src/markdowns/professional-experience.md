@@ -7,9 +7,9 @@ Went back to being an Individual Contributor to focus on my tech skills by joini
 
 - Lead a project to migrate existing **integration tests** to a new and better custom-built framework built with `Scala`, `Java` and `Selenium`.
 - On-boarded dozens of engineers onto the new framework by holding on-boarding sessions, extensive **code pairing and code reviewing**.
-- **Mentored** numerous team members
 - Owned the **CI/CD pipeline** and increased its quality and reliability.
-- Assumed the **Tech Lead role** in a big migration project for the app's UI to `Ember`. The role entailed **being the point person** for that part of the project, **translating product requirements** into actionable tasks, **planning and estimation**, helping with **technical designs** and making sure our **quality standards** are upheld in the code.
+- Assumed the **Tech Lead role** in a project to migrate the app's UI to `Ember`. The role entailed **being the point person** for that part of the project, **translating product requirements** into actionable tasks, **planning and estimation**, helping with **technical designs** and making sure our **quality standards** are upheld in the code.
+- **Mentored** numerous team members.
 
 ### **Engineering Manager** at **Expedia** in San Francisco, Jul 2015 - May 2017
 #### Expedia is one of the world's largest Online Travel Agent (OTA)
