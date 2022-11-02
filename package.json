@@ -29,7 +29,7 @@
     "eslint-plugin-import": "^1.14.0",
     "eslint-plugin-jsx-a11y": "^2.1.0",
     "eslint-plugin-react": "^6.1.2",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-html-pdf": "^0.3.0",
     "gulp-inline-source": "^3.0.0",
     "gulp-less": "^3.1.0",
