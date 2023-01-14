@@ -1,19 +1,26 @@
 doctype html
+meta(charset="utf-8")
 html(lang="en")
   head
     title Resume Joan Gamell
-    link(href='./styles/main.css', rel='stylesheet', inline)
-    link(href='./styles/print.css', rel='stylesheet', media='print', inline)
+    link(href='../styles/main.css', rel='stylesheet', inline)
+    link(href='../styles/print.css', rel='stylesheet', media='print', inline)
   body
     div.page
-      :markdown
-        # [Joan Gamell](http://gamell.io), Software Engineer
-      p.contact-info
-        span gamell [at] gamell [dot] io
-        span +1 (415) 825 2758
-        span: a(href='http://gamell.io') http://gamell.io
-        span: a(href='http://github.com/gamell') https://github.com/gamell
-        span: a(href='http://www.linkedin.com/in/gamell') https://www.linkedin.com/in/gamell
+      div.heading
+        :markdown
+          # [Joan Gamell](https://gamell.io), Software Engineer
+        p.contact-info
+          if public
+            strong ✉️ gamell [dot] works [at] proton [dot] me
+          else
+            strong ✉️ gamell.works@proton.me
+          if public
+            strong 📞 (four one five) eight two five, two seven five eight
+          else
+            strong 📞 (415) 825 2758
+          strong
+            a(href='https://gamell.io') 🌐 gamell.io
       div.lead
         include:markdown ../markdowns/introduction.md
       include:markdown ../markdowns/professional-experience.md

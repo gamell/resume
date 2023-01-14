@@ -21,35 +21,42 @@
   },
   "homepage": "https://github.com/gamell/resume#readme",
   "dependencies": {
-    "autoprefixer": "^6.4.0",
-    "browser-sync": "^2.14.0",
-    "del": "^2.2.2",
-    "eslint": "^3.3.1",
-    "eslint-config-airbnb": "^10.0.1",
-    "eslint-plugin-import": "^1.14.0",
-    "eslint-plugin-jsx-a11y": "^2.1.0",
-    "eslint-plugin-react": "^6.1.2",
-    "gulp": "^3.9.1",
-    "gulp-html-pdf": "^0.3.0",
-    "gulp-inline-source": "^3.0.0",
-    "gulp-less": "^3.1.0",
-    "gulp-postcss": "^6.1.1",
-    "gulp-pug": "^3.0.4",
-    "gulp-purifycss": "^0.2.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sourcemaps": "^1.6.0",
+    "autoprefixer": "^10.4.13",
+    "browser-sync": "^2.27.11",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-inline-source": "^4.0.0",
+    "gulp-less": "^5.0.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-pug": "^5.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-util": "^3.0.8",
+    "gutil": "^1.6.4",
+    "html-pdf-node": "^1.0.8",
     "jstransformer-markdown": "^1.1.0",
-    "postcss-assets": "^4.1.0"
+    "postcss-assets": "^6.0.0",
+    "through2": "^4.0.2"
   },
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "overrides": {
+    "gulp-html-pdf": {
+      "html-pdf": "3.0.1"
+    }
+  },
+  "browserslist": [
+    "last 2 versions"
+  ],
   "eslintConfig": {
-    "extends": "airbnb",
     "env": {
       "node": true,
       "es6": true
     },
     "rules": {
-      "no-console": 0,
-      "strict": 0
+      "no-console": 0
     }
   }
 }
