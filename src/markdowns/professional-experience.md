@@ -1,6 +1,22 @@
 ## Professional Experience
 
-### **Staff Software Engineer** at **LinkedIn** in San Francisco, May 2017 - present
+### **Staff Software Engineer (Front End)** at **Slack** in San Francisco, September 2018 - Present
+
+#### Slack - where work happens ™
+
+Matured as a well-rounded Front End Staff Engineer leading engineering in mission-critical projects, desigining test framework architecture and working in the foundational front end infrastructure that underpins the whole Slack client & webapps.
+
+- Helped ship the **Shared Channels** feature (later known as Slack Connect, where organizations can connect with each other) & subsequently lead numerous front-end projects between 2019-2022 which helped **grow the SC Network from 0 to thousands of organizations**.
+- Lead the development of the initial Slack Connect invite / acceptance / approval flow experience using `React` & `Redux`.
+- Architected highly **complex go-to-market deployment strategies** as our product was actively used by hundreds of enterprise organizations.
+- Was the main liasion between engineering, product and design, **performing TPM-like tasks** clarifying requirements, managing deadlines and encouraing a team culture where all functions build the product together iteratively.
+- Performed extensive code refactorings to **improve typing of crucial domain entities used throughout the codebase** in order to remove escape hatches that render type-checking useless.
+- Implemented **developer experience improvements** through linters (`eslint`), tests and codemods to improve the front end codebase at scale and nudge engineers to keep following the best practices.
+- **Coached and mentored** engineers, helping them develop their technical skills and professional career.
+- Lead **initiatives to improve and optimize processes** used in the Software Development & Product Development Lifecycles, resulting in more iterative and agile aproaches to building software.
+- Deeply **improved the systems & processes around the test framework** used by all engineers and quality engineers to write E2E tests, greatly improving its adoption and ease of use.
+
+### **Staff Software Engineer** at **LinkedIn** in San Francisco, May 2017 - September 2018
 #### LinkedIn is the largest professional network site with more then 500M AU
 
 Went back to being an Individual Contributor to focus on my tech skills by joining the front-end team in charge of building the portal to setup and manage advertising campaigns within LinkedIn.
@@ -14,7 +30,7 @@ Went back to being an Individual Contributor to focus on my tech skills by joini
 ### **Engineering Manager** at **Expedia** in San Francisco, Jul 2015 - May 2017
 #### Expedia is one of the world's largest Online Travel Agent (OTA)
 
-Having hands-on technical skills in this managerial position helped me to scale and lead an energetic team of engineers who owned the whole stack and deployed to production daily following `Continuous Deployment` practices.
+Having hands-on technical skills in this managerial position was critical to scaling and leading an energetic team of engineers who owned the whole stack and deployed to production daily following `Continuous Deployment` practices.
 
 - Built and led a successful team of engineers who owned the complete Product & Tech Stack and **reliably delivered according to Product's expectations**.
 - Lead the engineering team to generate a projected **$70M+ of Gross Profit** in 2016.
@@ -23,12 +39,11 @@ Having hands-on technical skills in this managerial position helped me to scale 
 - **Achieved zero outstanding bugs** several months by ensuring quality is built-in and automated in the code and pipeline and by continuously performing preventive maintenance.
 - **Mentored and coached team members**, empowering them to take decisions and to continuously improve themselves through data and feedback, and worked through performance issues with team members when needed.
 - Laid out the **technical vision for the product**, liaised and collaborated with other teams to achieve our goals.
-- Helped deliver the official [Expedia Alexa Skill](https://www.expedia.com/alexa) under a tight deadline as a side project. The project was developed using `node`, `AWS lambda` and `Dynamo DB`.
+- Helped deliver the official [Expedia Alexa Skill](https://shorturl.at/arz59) under a tight deadline as a side project. The project was developed using `node`, `AWS lambda` and `Dynamo DB`.
 - Developed and **open-sourced** [a library to functionally test Alexa Skills](https://github.com/ExpediaDotCom/alexa-conversation).
 - **Wrote code**, paired coded, performed code reviews and helped debug issues. Fluent in: `JavaScript`, `HTML`, `CSS` and `Java`.
 
 ### **Tech Lead** at **Expedia** in San Francisco, Oct 2014 - Jul 2015
-####
 
 First role with **people manager responsibilities** in a small team of engineers where we owned the whole tech stack for the product.
 
@@ -40,7 +55,6 @@ First role with **people manager responsibilities** in a small team of engineers
 - **Estimated** new feature effort levels and worked with Product on Backlog planning/grooming.
 
 ### **Front-end Engineer** at **Expedia** in Singapore, Oct 2012 - Oct 2014
-####
 
 Main front-end developer of a fully-responsive, high-traffic, highly-available e-commerce website: [AirAsiaGo](https://www.airasiago.com). Used `Kanban` & `Continuous Deployment` methodologies and followed `Clean Code` practices.
 
@@ -50,10 +64,10 @@ Main front-end developer of a fully-responsive, high-traffic, highly-available e
 - **Optimized** page load-time and SEO ranking through minification, caching, selective loading, changes in front-end architecture, usage of subdomain-per-asset CDNs, sprite and image compression, etc.
 - Identified, debugged and fixed **live-site issues** within hours (`Splunk`, `Nagios`, `AWS monitoring`, `Google Analytics`, etc.).
 
-### **Sr. Web Developer & Tech Lead** at **Optimum Solutions (Standard Chartered Bank)** in Singapore, Jan - Oct 2012
+### **Sr Web Developer & Tech Lead** at **Optimum Solutions (for SC Bank)** in Singapore, Jan - Oct 2012
 #### Optimum Solutions is a Singaporean mid-size IT consultant company. SCB is a global bank with branches in 70 countries over 80,000 employees
 
-Worked on the RMWB (Relation Manager WorkBench) project for Standard Chartered Bank. Our responsibility was to develop and ship the front-end of the application the corporate customers would use.
+Worked on the RMWB (Relation Manager WorkBench) project for Standard Chartered Bank. Was responsible of developing and shipping the front-end of the application the corporate customers would use.
 
 ### **Analyst** at **BBVA** in Madrid, Sep 2010 - Dec 2011
 #### BBVA is the second-largest Spanish bank with more than 100,000 employees around the world
