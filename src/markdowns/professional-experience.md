@@ -4,7 +4,7 @@
 
 #### Slack - where work happens ™
 
-Matured as a well-rounded Front End Staff Engineer leading engineering in mission-critical projects, desigining test framework architecture and working in the foundational front end infrastructure that underpins the whole Slack client & webapps.
+Matured as a well-rounded Front End Staff Engineer leading engineering in mission-critical projects, designing test framework architecture and working in the foundational front end infrastructure that underpins the whole Slack client & webapps.
 
 - Helped ship the **Shared Channels** feature (later known as Slack Connect, where organizations can connect with each other) & subsequently lead numerous front-end projects between 2019-2022 which helped **grow the SC Network from 0 to thousands of organizations**.
 - Lead the development of the initial Slack Connect invite / acceptance / approval flow experience using `React` & `Redux`.
