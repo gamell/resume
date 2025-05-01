@@ -40,3 +40,6 @@ jspm_packages
 public
 
 .DS_Store
+
+
+dist
